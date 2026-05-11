@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a research paper expert.\n\nExplain the research paper \"{paper_input}\" in a {style_input} style.\n\nKeep the explanation {length_input}.\n\nAlso explain:\n1. Main idea of the paper\n2. Key contribution\n3. Real-world use case\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
