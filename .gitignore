@@ -1,5 +1,62 @@
-venv/  
-Langchain_Models/venv/  
-__pycache__/  
-".env" 
-".env" 
+# Virtual Environment
+venv/
+Langchain_Models/venv/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+.env.*
+*.env
+!.env.example
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Logs & Databases
+*.log
+*.sqlite
+*.db
+
+# Secrets & Keys
+*.pem
+*.key
+*.crt
+secrets.json
+config.json
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# LangChain Specific
+Langchain_Models/__pycache__/
+*.parquet
+
+# Project Specific
+4_Document_loaders/__pycache__/
+3_chain/__pycache__/
