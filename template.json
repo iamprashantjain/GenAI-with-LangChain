@@ -1,0 +1,4 @@
+{
+    "template": "You are a research paper summarizer.\n\nPaper: {paper}\nStyle: {style}\n\nProvide a summary including:\n1. Main idea\n2. Key contributions\n3. Real-world applications",
+    "input_variables": ["paper", "style"]
+}

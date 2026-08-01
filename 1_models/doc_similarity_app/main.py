@@ -25,9 +25,3 @@ index,score = sorted(list(enumerate(scores)), key=lambda x:x[1])[-1]
 print(query)
 print(docs[index])
 print(f"similarity score is: {score}")
-
-
-
-
-
-
